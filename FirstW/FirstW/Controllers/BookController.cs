@@ -22,7 +22,7 @@ namespace FirstW.Controllers
                 book.BookID = i;
                 book.Title = "Atomic habits" + i;
                 book.Cost = i * 100;
-                book.AuthorName = "Sanghami" + i;
+                book.AuthorName = "Sunil" + i;
                 bookList.Add(book);
             }
             return bookList;
